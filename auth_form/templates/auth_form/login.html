@@ -8,8 +8,13 @@
       <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
       <meta content="IE=edge" http-equiv="X-UA-Compatible">
       <link rel="icon" type="image/png" href="https://shib.service.uci.edu/idp/images/new-favicon.png">
-      <link rel="stylesheet" type="text/css" href="./UCInetID Secure Web Login_files/style-20240711.css">
-      <script src="./UCInetID Secure Web Login_files/webauth-20240711.js.download"></script>
+      <!-- <link rel="stylesheet" type="text/css" href="./UCInetID Secure Web Login_files/style-20240711.css">
+      <script src="./UCInetID Secure Web Login_files/webauth-20240711.js.download"></script> -->
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'resources/style.css' %}">
+      <script src="{% static 'resources/webauth-20240711.js' %}"></script>
+      <!-- <img src="{% static 'UCInetID_Secure_Web_Login_files/logo-20240711.svg' %}" alt="Logo"> -->
+
       <noscript>
         <style> 
           .nojs-margin { margin-bottom: 18px !important }
@@ -29,7 +34,8 @@
     
     <div class="webauth-login">
       <a class="wordmark-link" href="https://uci.edu/" tabindex="-1">
-        <img alt="UCI University of California, Irvine" class="wordmark-logo" src="./UCInetID Secure Web Login_files/logo-20240711.svg">
+        {% load static %}
+        <img alt="UCI University of California, Irvine" class="wordmark-logo" src="{% static 'resources/logo-20240711.svg' %}">
       </a>
       
       <div class="webauth-card">
