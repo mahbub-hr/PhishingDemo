@@ -7,12 +7,8 @@ def login_form(request):
     if request.method == "POST":
         # Handle form submission
         j_username = request.POST.get("j_username", "")
-        # j_password = request.POST.get("j_password", "")
         
-        # Save the data to a text file
-        with open("form_data.txt", "a") as file:
-            file.write(f"Username: {j_username} \n") #, Password: {j_password}\n")
-        
+        print("Username: " , j_username, "\n")
         # Return a response or redirect
         return redirect("https://campusgroups.uci.edu/home_login")
     
