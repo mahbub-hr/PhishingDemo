@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.ngrok.io',  # Replace with your ngrok URL
+    'https://*.ngrok-free.app',  # Replace with your ngrok URL
     'https://*.onrender.com',
     'https://campusgroups.uci.edu',
     'https://57e2-169-234-28-29.ngrok-free.app/'
