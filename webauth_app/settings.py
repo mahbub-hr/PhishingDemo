@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-q-mep2c@$9p_7*iqyeh2j#lhg7qt1u5h8*$@p2r2sby&(dt&8i
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*', 
+    '*', '172.20.10.2'
     '0.0.0.0', 'www.campusgroups.uci.edu', 'https://ucilogindemo.onrender.com'
     , 'https://57e2-169-234-28-29.ngrok-free.app/'
     ]
