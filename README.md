@@ -1,4 +1,10 @@
 # PhishingDemo
+![Django](https://img.shields.io/badge/Django-4.x-brightgreen?style=flat&logo=django&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python&logoColor=white)
+![GitHub issues](https://img.shields.io/github/issues/username/repository)
+
+![Django Logo](https://upload.wikimedia.org/wikipedia/commons/7/75/Django_logo.svg)
+![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
 ## Requirements
 ```
